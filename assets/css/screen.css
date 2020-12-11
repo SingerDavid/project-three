@@ -86,6 +86,16 @@ img {
   display: block;
   max-width: 100%;
 }
+
+#titles {
+  text-align: center;
+  color: #FFF;
+  font-size: 1.313em;
+  background: black;
+  padding: 0.25em; /* eyes design */
+  font-weight: 700;
+  margin-bottom: em;
+  }
 .links li{
   display: inline-block;
   }
@@ -169,7 +179,7 @@ footer{
   .links a:hover{
     background: #607d9e;
   }
-  
+
   .calis img{
     display: inline-block;
     border-radius: 70%;
