@@ -153,19 +153,23 @@ footer{
     list-style-position: inside;
     list-style-type: circle;
   }
+  .links {
+    text-align: center;
+  }
   .links li{
     display: inline-block;
   }
   .links a{
-    display: inline-block;
-    text-align: center;
     background: #50ab9f;
     color: #222;
+    border-radius: 0;
+    padding: 0.595238095em 1em 0.595238095em 1em;;
     border-radius: 0.79365079333em;
   }
   .links a:hover{
     background: #607d9e;
   }
+  
   .calis img{
     display: inline-block;
     border-radius: 70%;
