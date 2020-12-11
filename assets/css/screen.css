@@ -87,15 +87,6 @@ img {
   max-width: 100%;
 }
 
-#titles {
-  text-align: center;
-  color: #FFF;
-  font-size: 1.313em;
-  background: black;
-  padding: 0.25em; /* eyes design */
-  font-weight: 700;
-  margin-bottom: em;
-  }
 .links li{
   display: inline-block;
   }
@@ -163,18 +154,29 @@ footer{
     list-style-position: inside;
     list-style-type: circle;
   }
+
+  #titles {
+    text-align: center;
+    color: #FFF;
+    font-size: 1.313em;
+    background: black;
+    padding: 0.25em; /* eyes design */
+    font-weight: 700;
+    margin-bottom: em;
+  }
   .links {
     text-align: center;
   }
   .links li{
     display: inline-block;
+    background: black;
+    padding-left: 0.595238095em;
   }
   .links a{
     background: #50ab9f;
     color: #222;
     border-radius: 0;
-    padding: 0.595238095em 1em 0.595238095em 1em;;
-    border-radius: 0.79365079333em;
+    padding: 0.595238095em 1em 0.595238095em 1em;
   }
   .links a:hover{
     background: #607d9e;
