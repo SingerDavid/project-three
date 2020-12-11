@@ -89,13 +89,16 @@ img {
 
 .links li{
   display: inline-block;
-  }
+  margin: 0.595238095em;
+  background: black;
+  padding-left: 0.595238095em;
+  border-radius: 0.79365079333em;
+}
 .links a{
-  display: inline-block;
-  text-align: center;
   background: #50ab9f;
   color: #222;
   border-radius: 0.79365079333em;
+  padding: 0.595238095em;
 }
 .links a:hover{
   background: #607d9e;
